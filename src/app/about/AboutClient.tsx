@@ -21,9 +21,9 @@ const values = [
 ];
 
 const team = [
-for over 30 years&apos;."
-{ name: "Jimmy", role: "Lead Technician", bio: "Skilled technician known for thoroughness &amp; professional installation work." },
-{ name: "Wilson", role: "Service Technician", bio: "Responsive and reliable, ensuring every job is completed with attention to detail." }
+  { name: "Joe Russo", role: "Founder & Master Plumber", bio: "Leading Russo Brothers with integrity and expert craftsmanship for over 30 years&apos;." },
+  { name: "Jimmy", role: "Lead Technician", bio: "Skilled technician known for thoroughness &amp; professional installation work." },
+  { name: "Wilson", role: "Service Technician", bio: "Responsive and reliable, ensuring every job is completed with attention to detail." }
 ];
 
 const certifications = [
