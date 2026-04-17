@@ -90,13 +90,13 @@ export default function AboutClient() {
                     Russo Brothers Inc has been serving the Wilmington community for over 30 years with a simple philosophy: treat every customer like a neighbor.
                   </p>
                   <p>
-                    Founded by Joe Russo, our company was built on honest service, professional craftsmanship, and fair pricing. We've grown from a one-truck operation to a full team of skilled technicians, but our core values have never changed.
+                    Founded by Joe Russo, our company was built on honest service, professional craftsmanship, and fair pricing. We&apos;ve grown from a one-truck operation to a full team of skilled technicians, but our core values have never changed.
                   </p>
                   <p>
-                    Every member of the Russo Brothers crew operates by the same rule: show up on time, do it right, and charge a fair price. We test our finished work and leave no mess behind. That's why our customers keep coming back, and why they recommend us to their friends and family.
+                    Every member of the Russo Brothers crew operates by the same rule: show up on time, do it right, and charge a fair price. We test our finished work and leave no mess behind. That&apos;s why our customers keep coming back, and why they recommend us to their friends and family.
                   </p>
                   <p>
-                    Wilmington is our home. We're proud to serve it one perfectly fixed pipe at a time.
+                    Wilmington is our home. We&apos;re proud to serve it one perfectly fixed pipe at a time.
                   </p>
                 </div>
               </ScrollReveal>
