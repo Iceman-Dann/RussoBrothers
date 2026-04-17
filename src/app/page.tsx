@@ -201,12 +201,12 @@ function Hero() {
 /* ─── TRUST BAR ─── */
 function TrustBar() {
   const items = [
-{ icon: <ShieldCheckIcon size={20} className="text-accent" />, text: "Licensed & Insured", hasCount: false },
-{ icon: <StarIcon size={20} className="text-accent" />, text: "4.9 Star Rated", hasCount: false },
-{ icon: <ClockIcon size={20} className="text-accent" />, text: "Quick Response", hasCount: false },
-{ icon: <MapPinIcon size={20} className="text-accent" />, text: "Serving Wilmington, DE", hasCount: false },
-{ icon: <DollarIcon size={20} className="text-accent" />, text: "Reasonable Pricing", hasCount: false },
-    { icon: <CheckCircleIcon size={20} className="text-accent" />, text: "Family Owned", hasCount: false },
+{ icon: <ShieldCheckIcon size={20} className="text-accent" />, text: "Licensed & Insured" },
+{ icon: <StarIcon size={20} className="text-accent" />, text: "4.9 Star Rated" },
+{ icon: <ClockIcon size={20} className="text-accent" />, text: "Quick Response" },
+{ icon: <MapPinIcon size={20} className="text-accent" />, text: "Serving Wilmington, DE" },
+{ icon: <DollarIcon size={20} className="text-accent" />, text: "Reasonable Pricing" },
+    { icon: <CheckCircleIcon size={20} className="text-accent" />, text: "Family Owned" },
   ];
 
   return (
@@ -219,11 +219,7 @@ function TrustBar() {
                 <div key={i} className="flex items-center gap-3 justify-center lg:justify-start">
                   <span>{item.icon}</span>
                   <span className="text-sm font-medium text-text-primary whitespace-nowrap">
-                    {item.hasCount ? (
-                      <><CountUp target={item.count!} suffix="+" /> Jobs</>
-                    ) : (
-                      item.text
-                    )}
+                    {item.text}
                   </span>
                 </div>
               ))}
