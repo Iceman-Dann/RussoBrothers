@@ -35,18 +35,17 @@ export default function Footer() {
                 </svg>
               </div>
               <span className="text-lg font-extrabold tracking-tighter">
-                APEX <span className="text-accent">PLUMBING</span>
+                RUSSO <span className="text-accent">BROTHERS</span>
               </span>
             </div>
             <p className="text-text-secondary text-sm leading-relaxed mb-6">
-              Austin&apos;s most trusted plumbing company. Licensed, insured, and committed to
-              excellence since 2009.
+              Wilmington&apos;s most trusted plumbing company. Family-owned, licensed, insured, and treating customers like neighbors since 1995.
             </p>
             <a
-              href="tel:+15125550182"
+              href="tel:+13027623307"
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-accent text-white text-sm font-bold rounded-full accent-glow hover:accent-glow-strong transition-all"
             >
-              <PhoneIcon size={16} className="inline-block mr-1" /> (512) 555-0182
+              <PhoneIcon size={16} className="inline-block mr-1" /> (302) 762-3307
             </a>
           </div>
 
@@ -96,25 +95,25 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-text-secondary">
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-text-secondary"><MapPinIcon size={16} /></span>
-                Serving Austin, TX &amp; Surrounding Areas
+                912 Brandywine Blvd, Wilmington, DE 19809
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-text-secondary"><PhoneIcon size={16} /></span>
-                <a href="tel:+15125550182" className="hover:text-accent transition-colors">
-                  (512) 555-0182
+                <a href="tel:+13027623307" className="hover:text-accent transition-colors">
+                  (302) 762-3307
                 </a>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-text-secondary"><MailIcon size={16} /></span>
-                <a href="mailto:info@apexplumbingco.com" className="hover:text-accent transition-colors">
-                  info@apexplumbingco.com
+                <a href="mailto:info@russobros.com" className="hover:text-accent transition-colors">
+                  info@russobros.com
                 </a>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-text-secondary"><ClockIcon size={16} /></span>
-                Mon-Fri 7am-7pm<br />
-                Sat 8am-4pm<br />
-                Emergency 24/7
+                Mon-Fri 8am-5pm<br />
+                Sat by Appointment<br />
+                Emergency Service Available
               </li>
             </ul>
           </div>
@@ -123,12 +122,12 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-white/[0.06] flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-text-secondary">
-            © {new Date().getFullYear()} Apex Plumbing Co. All rights reserved. TX License #M-41892
+            © {new Date().getFullYear()} Russo Brothers Inc. All rights reserved. DE Licensed & Insured
           </p>
           <div className="flex items-center gap-6">
-            <span className="text-xs text-text-secondary">Licensed & Insured</span>
+            <span className="text-xs text-text-secondary">Family Owned</span>
             <span className="text-xs text-text-secondary">•</span>
-            <span className="text-xs text-text-secondary">BBB A+ Rated</span>
+            <span className="text-xs text-text-secondary">4.9★ Rated</span>
           </div>
         </div>
       </div>

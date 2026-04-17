@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import ServicesClient from "./ServicesClient";
 
 export const metadata: Metadata = {
-  title: "Our Services | Apex Plumbing Co. | Austin, TX Plumber",
+  title: "Our Services | Russo Brothers Inc | Wilmington, DE Plumber",
   description:
-    "Full-service plumbing in Austin, TX. Emergency repairs, drain cleaning, water heater installation, sewer line service, bathroom remodeling, and gas line work. Licensed & insured.",
+    "Full-service plumbing in Wilmington, DE. Water heater installation, drain cleaning, repairs, sump pumps, kitchen faucets, and more. Licensed & insured.",
   openGraph: {
-    title: "Our Services | Apex Plumbing Co.",
-    description: "Everything you need, done right. Explore our full range of professional plumbing services in Austin, TX.",
+    title: "Our Services | Russo Brothers Inc",
+    description: "Professional plumbing services in Wilmington, DE. Everything you need from your trusted local plumber.",
   },
 };
 

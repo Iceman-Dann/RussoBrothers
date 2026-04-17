@@ -6,33 +6,33 @@ import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/Animat
 import SectionHeading from "@/components/SectionHeading";
 
 const timeline = [
-  { year: "2009", title: "The Beginning", desc: "Marcus Reyes starts Apex Plumbing with one truck and a commitment to honest, quality work." },
-  { year: "2013", title: "Growing Team", desc: "Hired our first two full-time technicians. Expanded service area to cover all of Travis County." },
-  { year: "2018", title: "1,000 Jobs", desc: "Completed our 1,000th job and earned our first BBB A+ rating. Started 24/7 emergency service." },
-  { year: "2022", title: "Top Rated", desc: "Named Austin's #1 rated plumber on Google with 100+ five-star reviews. Expanded to a 6-person team." },
-  { year: "2024", title: "Stronger Than Ever", desc: "2,400+ jobs completed. Added gas line services and bathroom remodeling to our capabilities." },
+  { year: "1995", title: "The Beginning", desc: "Joe Russo and his brother start Russo Brothers with a commitment to honest, quality work." },
+  { year: "2000", title: "Growing Team", desc: "Expanded team and service area throughout Wilmington and surrounding areas." },
+  { year: "2010", title: "Community Leaders", desc: "Established as trusted local plumbing company serving thousands of customers." },
+  { year: "2020", title: "Top Rated", desc: "Achieved 4.9-star rating on Google with 47+ reviews from satisfied customers." },
+  { year: "2025", title: "Stronger Than Ever", desc: "Continuing to serve Delaware families with the same commitment to quality and honesty." },
 ];
 
 const values = [
-  { icon: "💎", name: "Honesty", desc: "We give you the truth about what's wrong and what it costs. Period. No upselling, no pressure." },
-  { icon: "🏆", name: "Quality", desc: "Every connection tight, every joint soldered right. We do it once and we do it properly." },
-  { icon: "⏰", name: "Reliability", desc: "When we say we'll be there, we'll be there. Our 97% on-time rate speaks for itself." },
-  { icon: "🤝", name: "Community", desc: "Austin is our home. We sponsor local teams, volunteer, and treat every neighbor like family." },
+  { icon: "💎", name: "Honesty", desc: "We give you the truth about what's wrong and what it costs. No upselling, no pressure." },
+  { icon: "🏆", name: "Quality", desc: "Every job done right. We test our finished work and do a thorough job of cleanup." },
+  { icon: "⏰", name: "Reliability", desc: "When we say we'll be there, we'll be there. Quick response, prompt service." },
+  { icon: "🤝", name: "Community", desc: "Wilmington is our home. We treat every customer like neighbors, not transactions." },
 ];
 
 const team = [
-  { name: "Marcus Reyes", role: "Founder & Master Plumber", bio: "15 years in the trade. Still gets excited about a perfectly sweated copper joint." },
-  { name: "Jake Torres", role: "Lead Technician", bio: "Drain whisperer. If it's clogged, Jake's already figured out why." },
-  { name: "Priya Patel", role: "Office Manager", bio: "Keeps the whole operation running smoothly. Probably scheduling your appointment right now." },
+  { name: "Joe Russo", role: "Founder & Master Plumber", bio: "Leading Russo Brothers with integrity and expert craftsmanship for over 30 years." },
+  { name: "Jimmy", role: "Lead Technician", bio: "Skilled technician known for thoroughness and professional installation work." },
+  { name: "Wilson", role: "Service Technician", bio: "Responsive and reliable, ensuring every job is completed with attention to detail." },
 ];
 
 const certifications = [
-  "Texas Master Plumber License",
-  "BBB A+ Accredited",
+  "Delaware Master Plumber License",
+  "Licensed & Insured",
   "EPA Certified",
   "OSHA Safety Certified",
-  "Rinnai Authorized Dealer",
-  "Bradford White Partner",
+  "Professional Service",
+  "Customer Satisfaction Guarantee",
 ];
 
 export default function AboutClient() {
@@ -51,7 +51,7 @@ export default function AboutClient() {
               Built on Hard Work<br />and <span className="text-accent">Honest Service.</span>
             </h1>
             <p className="mt-4 text-lg text-text-secondary max-w-2xl">
-              From one truck and a toolbox to Austin&apos;s most trusted plumbing company — here&apos;s our story.
+              A family-owned plumbing company treating customers like neighbors for over 30 years.
             </p>
           </motion.div>
         </div>
@@ -67,8 +67,8 @@ export default function AboutClient() {
                 <div className="bg-gradient-to-br from-card to-secondary aspect-[4/3] flex items-center justify-center">
                   <div className="text-center">
                     <span className="text-7xl block mb-4">🔧</span>
-                    <p className="text-lg font-bold text-text-primary">Marcus Reyes</p>
-                    <p className="text-sm text-text-secondary">Founder, Apex Plumbing Co.</p>
+                    <p className="text-lg font-bold text-text-primary">Joe Russo</p>
+                    <p className="text-sm text-text-secondary">Founder, Russo Brothers Inc</p>
                   </div>
                 </div>
               </div>
@@ -81,22 +81,22 @@ export default function AboutClient() {
               </ScrollReveal>
               <ScrollReveal delay={0.1}>
                 <h2 className="mt-3 text-3xl sm:text-4xl font-extrabold tracking-tighter text-text-primary">
-                  One Truck. One Promise.
+                  Treating Customers Like Neighbors
                 </h2>
               </ScrollReveal>
               <ScrollReveal delay={0.2}>
                 <div className="mt-6 space-y-4 text-text-secondary leading-relaxed">
                   <p>
-                    In 2009, Marcus Reyes walked away from a comfortable job at a big plumbing company with one thing on his mind: do it better. Better service, better prices, better everything.
+                    Russo Brothers Inc has been serving the Wilmington community for over 30 years with a simple philosophy: treat every customer like a neighbor.
                   </p>
                   <p>
-                    He started Apex Plumbing Co. with a used F-150, a set of tools his father gave him, and a promise — every customer would be treated like family. No surprise bills. No cutting corners. No excuses.
+                    Founded by Joe Russo, our company was built on honest service, professional craftsmanship, and fair pricing. We've grown from a one-truck operation to a full team of skilled technicians, but our core values have never changed.
                   </p>
                   <p>
-                    Fifteen years later, that promise hasn&apos;t changed. We&apos;ve grown from one truck to a full team, but every member of the Apex crew operates by the same rule Marcus set on day one: show up on time, do it right, and charge a fair price.
+                    Every member of the Russo Brothers crew operates by the same rule: show up on time, do it right, and charge a fair price. We test our finished work and leave no mess behind. That's why our customers keep coming back, and why they recommend us to their friends and family.
                   </p>
                   <p>
-                    Austin has given us everything. We&apos;re proud to give it back — one perfectly fixed pipe at a time.
+                    Wilmington is our home. We're proud to serve it one perfectly fixed pipe at a time.
                   </p>
                 </div>
               </ScrollReveal>
@@ -218,13 +218,13 @@ export default function AboutClient() {
           </ScrollReveal>
           <ScrollReveal delay={0.1}>
             <p className="mt-4 text-lg text-text-secondary">
-              See what 15 years of honest plumbing looks like.
+              See what decades of honest plumbing looks like.
             </p>
           </ScrollReveal>
           <ScrollReveal delay={0.2}>
             <div className="mt-8 flex flex-wrap gap-4 justify-center">
               <a
-                href="tel:+15125550182"
+                href="tel:+13027623307"
                 className="px-8 py-4 bg-accent text-white font-bold rounded-xl text-lg accent-glow hover:accent-glow-strong hover:scale-[1.02] transition-all"
               >
                 Call Now

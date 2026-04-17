@@ -88,10 +88,10 @@ export default function ContactClient() {
                         We&apos;ll get back to you within the hour. For immediate help, call us.
                       </p>
                       <a
-                        href="tel:+15125550182"
+                        href="tel:+13027623307"
                         className="mt-6 inline-flex items-center gap-2 px-6 py-3 bg-accent text-white font-bold rounded-xl accent-glow"
                       >
-                        📞 Call (512) 555-0182
+                        📞 Call (302) 762-3307
                       </a>
                     </motion.div>
                   ) : (
@@ -217,25 +217,25 @@ export default function ContactClient() {
             {/* Contact Info — 2 columns */}
             <div className="lg:col-span-2 space-y-6">
               <ScrollReveal delay={0.1}>
-                <a href="tel:+15125550182" className="glass rounded-2xl p-6 flex items-center gap-4 group hover:border-accent/30 transition-all block">
+                <a href="tel:+13027623307" className="glass rounded-2xl p-6 flex items-center gap-4 group hover:border-accent/30 transition-all block">
                   <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center flex-shrink-0">
                     <span className="text-xl">📞</span>
                   </div>
                   <div>
                     <p className="text-sm text-text-secondary">Call Us</p>
-                    <p className="text-lg font-bold text-text-primary group-hover:text-accent transition-colors">(512) 555-0182</p>
+                    <p className="text-lg font-bold text-text-primary group-hover:text-accent transition-colors">(302) 762-3307</p>
                   </div>
                 </a>
               </ScrollReveal>
 
               <ScrollReveal delay={0.15}>
-                <a href="mailto:info@apexplumbingco.com" className="glass rounded-2xl p-6 flex items-center gap-4 group hover:border-accent/30 transition-all block">
+                <a href="mailto:info@russobros.com" className="glass rounded-2xl p-6 flex items-center gap-4 group hover:border-accent/30 transition-all block">
                   <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center flex-shrink-0">
                     <span className="text-xl">✉️</span>
                   </div>
                   <div>
                     <p className="text-sm text-text-secondary">Email Us</p>
-                    <p className="text-lg font-bold text-text-primary group-hover:text-accent transition-colors">info@apexplumbingco.com</p>
+                    <p className="text-lg font-bold text-text-primary group-hover:text-accent transition-colors">info@russobros.com</p>
                   </div>
                 </a>
               </ScrollReveal>
@@ -254,11 +254,11 @@ export default function ContactClient() {
                   <div className="space-y-2 text-sm">
                     <div className="flex justify-between">
                       <span className="text-text-secondary">Mon - Fri</span>
-                      <span className="font-semibold text-text-primary">7:00 AM - 7:00 PM</span>
+                      <span className="font-semibold text-text-primary">8:00 AM - 5:00 PM</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-text-secondary">Saturday</span>
-                      <span className="font-semibold text-text-primary">8:00 AM - 4:00 PM</span>
+                      <span className="font-semibold text-text-primary">By Appointment</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-text-secondary">Sunday</span>
@@ -266,7 +266,7 @@ export default function ContactClient() {
                     </div>
                     <div className="pt-2 border-t border-white/[0.06] flex justify-between">
                       <span className="text-accent font-semibold">Emergency</span>
-                      <span className="font-bold text-accent">24/7</span>
+                      <span className="font-bold text-accent">Available</span>
                     </div>
                   </div>
                 </div>
@@ -279,8 +279,8 @@ export default function ContactClient() {
                   </div>
                   <div>
                     <p className="text-sm text-text-secondary">Service Area</p>
-                    <p className="text-sm font-bold text-text-primary">Austin, TX &amp; Surrounding Areas</p>
-                    <p className="text-xs text-text-secondary mt-1">Travis, Williamson &amp; Hays Counties</p>
+                    <p className="text-sm font-bold text-text-primary">Wilmington, DE &amp; Surrounding Areas</p>
+                    <p className="text-xs text-text-secondary mt-1">912 Brandywine Blvd, Wilmington, DE 19809</p>
                   </div>
                 </div>
               </ScrollReveal>
@@ -294,14 +294,14 @@ export default function ContactClient() {
         <ScrollReveal>
           <div className="max-w-7xl mx-auto map-container rounded-2xl overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220644.2660058886!2d-97.89333842249997!3d30.307182199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b599a0cc032f%3A0x5d9b464bd469d57a!2sAustin%2C%20TX!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199287.55268763348!2d-75.64521500849244!3d39.74877589447356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6fd5a41f07d61%3A0x6ce3da99ead26e6b!2sWilmington%2C%20DE!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
               width="100%"
               height="400"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Apex Plumbing Co. service area - Austin, TX"
+              title="Russo Brothers Inc service area - Wilmington, DE"
             />
           </div>
         </ScrollReveal>
@@ -317,10 +317,10 @@ export default function ContactClient() {
           </ScrollReveal>
           <ScrollReveal delay={0.1}>
             <a
-              href="tel:+15125550182"
+              href="tel:+13027623307"
               className="mt-6 inline-flex items-center gap-3 px-10 py-5 bg-white text-primary font-black text-xl rounded-2xl hover:scale-105 transition-transform shadow-2xl"
             >
-              📞 (512) 555-0182
+              📞 (302) 762-3307
             </a>
           </ScrollReveal>
         </div>

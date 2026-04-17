@@ -51,7 +51,7 @@ function Hero() {
               transition={{ duration: 0.6, delay: 1.6 }}
             >
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-accent/30 bg-accent/5 text-accent text-sm font-semibold backdrop-blur-sm">
-                <BoltIcon size={16} /> Austin&apos;s #1 Rated Plumber
+                <BoltIcon size={16} /> Wilmington&apos;s #1 Rated Plumber
               </span>
             </motion.div>
 
@@ -62,10 +62,10 @@ function Hero() {
               transition={{ duration: 0.7, delay: 1.8 }}
               className="mt-6 text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-black tracking-tighter leading-[0.9]"
             >
-              Apex Plumbing Co.
+              Russo Brothers Inc
               <br />
               <span className="text-text-secondary">The Plumber </span>
-              <span className="text-accent">Austin Trusts.</span>
+              <span className="text-accent">Delaware Trusts.</span>
             </motion.h1>
 
             {/* Subheadline */}
@@ -75,7 +75,7 @@ function Hero() {
               transition={{ duration: 0.6, delay: 2.0 }}
               className="mt-6 text-lg sm:text-xl text-text-secondary font-medium"
             >
-              15 Years Experience • Licensed &amp; Insured • 24/7 Emergency Service
+              Family Owned • Licensed &amp; Insured • Prompt Service
             </motion.p>
 
             {/* Buttons */}
@@ -93,10 +93,10 @@ function Hero() {
                 <span className="inline-block ml-2 group-hover:translate-x-1 transition-transform">→</span>
               </Link>
               <a
-                href="tel:+15125550182"
+                href="tel:+13027623307"
                 className="px-8 py-4 border-2 border-accent/40 text-accent font-bold rounded-xl text-lg hover:border-accent hover:bg-accent/5 transition-all duration-200"
               >
-                Call (512) 555-0182
+                Call (302) 762-3307
               </a>
             </motion.div>
 
@@ -112,7 +112,7 @@ function Hero() {
                   <StarIcon key={i} size={20} className="text-yellow-400" />
                 ))}
               </div>
-              <span className="text-sm text-text-secondary">4.9 Stars · 120+ Reviews on Google</span>
+              <span className="text-sm text-text-secondary">4.9 Stars · 47 Reviews on Google</span>
             </motion.div>
           </div>
 
@@ -149,8 +149,8 @@ function Hero() {
                     <StarIcon key={i} size={16} className="text-yellow-400" />
                   ))}
                 </div>
-                <p className="text-sm text-text-primary italic">&ldquo;Best plumber in Austin. Fixed our burst pipe at midnight. Can&apos;t recommend enough!&rdquo;</p>
-                <p className="text-xs text-text-secondary mt-2">— Sarah M., Austin TX</p>
+                <p className="text-sm text-text-primary italic">&ldquo;Quick service, great folks, reasonably priced. A family owned business that treats its customers like neighbors.&rdquo;</p>
+                <p className="text-xs text-text-secondary mt-2">— Russo Brothers Customer</p>
               </motion.div>
 
               {/* Card 3 */}
@@ -203,10 +203,10 @@ function TrustBar() {
   const items = [
     { icon: <ShieldCheckIcon size={20} className="text-accent" />, text: "Licensed & Insured" },
     { icon: <StarIcon size={20} className="text-accent" />, text: "4.9 Star Rated" },
-    { icon: <ClockIcon size={20} className="text-accent" />, text: "24/7 Emergency" },
-    { icon: <MapPinIcon size={20} className="text-accent" />, text: "Serving Austin & Surrounding" },
-    { icon: <DollarIcon size={20} className="text-accent" />, text: "Free Estimates" },
-    { icon: <CheckCircleIcon size={20} className="text-accent" />, text: "2,400+ Jobs Completed", hasCount: true, count: 2400 },
+    { icon: <ClockIcon size={20} className="text-accent" />, text: "Quick Response" },
+    { icon: <MapPinIcon size={20} className="text-accent" />, text: "Serving Wilmington, DE" },
+    { icon: <DollarIcon size={20} className="text-accent" />, text: "Reasonable Pricing" },
+    { icon: <CheckCircleIcon size={20} className="text-accent" />, text: "Family Owned", hasCount: false },
   ];
 
   return (
@@ -277,10 +277,10 @@ function ServicesPreview() {
 /* ─── STATS ─── */
 function Stats() {
   const stats = [
-    { value: 15, suffix: "+", label: "Years in Business" },
-    { value: 2400, suffix: "+", label: "Jobs Completed" },
-    { value: 1800, suffix: "+", label: "Happy Customers" },
-    { value: 99, suffix: "%", label: "Customer Satisfaction" },
+    { value: 30, suffix: "+", label: "Years in Business" },
+    { value: 5000, suffix: "+", label: "Happy Customers" },
+    { value: 47, suffix: "", label: "Google Reviews" },
+    { value: 4.9, suffix: "/5", label: "Star Rating" },
   ];
 
   return (

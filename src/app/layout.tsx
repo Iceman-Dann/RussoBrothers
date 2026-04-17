@@ -14,16 +14,16 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Apex Plumbing Co. | Austin's #1 Rated Plumber | 24/7 Emergency Service",
+  title: "Russo Brothers Inc | Wilmington's Trusted Plumber | Professional Plumbing Services",
   description:
-    "Apex Plumbing Co. is Austin, TX's most trusted plumbing company. Licensed & insured with 15+ years experience. Same-day service, upfront pricing, and 24/7 emergency repairs. Call (512) 555-0182.",
-  keywords: "plumber Austin TX, emergency plumber, plumbing repair, drain cleaning, water heater, Apex Plumbing",
+    "Russo Brothers Inc is Wilmington, DE's most trusted plumbing company. Family owned, licensed & insured. Professional service, fair pricing, and quick response. Call (302) 762-3307.",
+  keywords: "plumber Wilmington DE, plumbing repair, drain cleaning, water heater, Russo Brothers, professional plumbing",
   openGraph: {
-    title: "Apex Plumbing Co. | Austin's #1 Rated Plumber",
-    description: "Licensed & insured plumber in Austin, TX. 15+ years experience, 24/7 emergency service, free estimates.",
+    title: "Russo Brothers Inc | Wilmington Plumber",
+    description: "Licensed & insured plumber in Wilmington, DE. Family owned business with professional plumbing services.",
     type: "website",
     locale: "en_US",
-    siteName: "Apex Plumbing Co.",
+    siteName: "Russo Brothers Inc",
   },
 };
 

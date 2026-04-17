@@ -24,7 +24,7 @@ export default function FloatingCTA() {
           className="fixed bottom-6 right-6 z-50 lg:hidden"
         >
           <a
-            href="tel:+15125550182"
+            href="tel:+13027623307"
             className="relative flex items-center gap-2 px-6 py-4 bg-accent text-white font-bold rounded-full shadow-2xl"
             aria-label="Call now"
           >

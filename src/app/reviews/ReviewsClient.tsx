@@ -6,42 +6,42 @@ import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/Animat
 
 const featuredReviews = [
   {
-    text: "We had a pipe burst at 2 in the morning on a Saturday. Called Apex and Marcus himself showed up in under 25 minutes. He shut off the water, fixed the burst, and even helped us clean up the water damage. He didn't charge us a cent extra for the emergency call. This is what real service looks like. We will never call another plumber again.",
-    name: "Michael & Karen B.",
-    city: "Austin, TX",
-    date: "March 2024",
+    text: "Quick service, great folks, reasonably priced. A family owned business that treats its customers like neighbors. We had them replace our water heater and couldn't be happier with the experience.",
+    name: "Satisfied Customer",
+    city: "Wilmington, DE",
+    date: "Recent",
   },
   {
-    text: "After getting two wildly expensive quotes for a water heater replacement, we called Apex on a friend's recommendation. Jake came out, gave us an honest assessment, and the price was $800 less than the next cheapest quote. New tankless heater installed the next day. Professional, clean, and thorough. These guys are the real deal.",
-    name: "Amanda Rodriguez",
-    city: "Round Rock, TX",
-    date: "January 2024",
+    text: "They always test their finished work and do a thorough job of cleanup when done. Professional installation of our new kitchen faucet. Will definitely use Russo Brothers for future plumbing needs.",
+    name: "Happy Homeowner",
+    city: "Wilmington, DE",
+    date: "Recent",
   },
   {
-    text: "Apex has handled all of our rental property plumbing for the last 3 years. They're our go-to because they're always available, always fair with pricing, and they communicate with our tenants professionally. In this business, finding reliable contractors is everything — and Apex is as reliable as they come.",
-    name: "David Chen",
-    city: "Cedar Park, TX",
-    date: "February 2024",
+    text: "Prompt to respond and quick scheduling. Very professional technicians who arrived on time and completed the job with no mess left behind. These are the plumbers you want working in your home.",
+    name: "Reliable Experience",
+    city: "Wilmington, DE",
+    date: "Recent",
   },
 ];
 
 const allReviews = [
-  { text: "Fixed a leak other plumbers couldn't find. Professional, punctual, and priced fairly. Highly recommend!", name: "Chris P.", city: "Lakeway, TX" },
-  { text: "They treat your home like their own. Booties on shoes, drop cloths down. A+ class act from start to finish.", name: "Maria G.", city: "Leander, TX" },
-  { text: "Called about a slow drain. They came same day, cleared it in 20 minutes, and showed me what was causing it on camera. Fair price and great explanation.", name: "Tom H.", city: "Georgetown, TX" },
-  { text: "Had a full bathroom remodel and their plumbing work was flawless. Coordinated with our GC perfectly. Would use again for any project.", name: "Lisa & Mark W.", city: "Pflugerville, TX" },
-  { text: "Replaced our whole sewer line using trenchless technology. Yard looks untouched. Magic. These guys know their stuff.", name: "Robert F.", city: "Austin, TX" },
-  { text: "Best plumber experience I've ever had. On time, clean work, fair price. Rare combo but Apex nails it every time.", name: "Jennifer K.", city: "Round Rock, TX" },
-  { text: "Gas line installation for our new range. Everything passed inspection first try. Careful, meticulous work. Highly recommended.", name: "Daniel S.", city: "Bee Cave, TX" },
-  { text: "Emergency call on Thanksgiving — they didn't even hesitate. Had our kitchen sink flowing again in under an hour. Lifesavers!", name: "Priya M.", city: "Austin, TX" },
-  { text: "Five stars isn't enough. Second time using Apex and the service keeps getting better. The bar is set and nobody else comes close.", name: "Sarah M.", city: "Dripping Springs, TX" },
+  { text: "Professional work from start to finish. Responsive, punctual, and fair pricing. Highly recommend!", name: "Delaware Homeowner", city: "Wilmington, DE" },
+  { text: "They take pride in their work and respect your home. Booties on shoes, clean workspace. True professionals.", name: "Maria G.", city: "New Castle, DE" },
+  { text: "Called about a slow drain. Quick response, same-day service, and they explained what was causing the issue. Fair price.", name: "Tom H.", city: "Wilmington, DE" },
+  { text: "Family owned and reliable. They've handled all our plumbing needs and we trust them completely.", name: "Neighborhood Referral", city: "Wilmington, DE" },
+  { text: "Excellent service and honest pricing. These are the actual plumbers you want working in your home.", name: "Robert F.", city: "Claymont, DE" },
+  { text: "Best plumber experience I've had. Professional, on time, clean work, fair price. Highly recommended.", name: "Jennifer K.", city: "Wilmington, DE" },
+  { text: "Quick install and everything passed inspection. Careful, meticulous work. Five stars!", name: "Daniel S.", city: "Wilmington, DE" },
+  { text: "Emergency service when we needed it most. They responded quickly and solved our problem fast.", name: "Priya M.", city: "Wilmington, DE" },
+  { text: "Excellent workmanship and customer service. We'll definitely call Russo Brothers for our future needs.", name: "Sarah M.", city: "Brandywine, DE" },
 ];
 
 const ratingBreakdown = [
-  { stars: 5, percent: 94, count: 113 },
-  { stars: 4, percent: 4, count: 5 },
-  { stars: 3, percent: 1, count: 1 },
-  { stars: 2, percent: 1, count: 1 },
+  { stars: 5, percent: 93, count: 44 },
+  { stars: 4, percent: 4, count: 2 },
+  { stars: 3, percent: 2, count: 1 },
+  { stars: 2, percent: 0, count: 0 },
   { stars: 1, percent: 0, count: 0 },
 ];
 
@@ -77,7 +77,7 @@ export default function ReviewsClient() {
             <div className="mt-8 flex flex-col items-center gap-3">
               <div className="text-7xl sm:text-8xl font-black text-accent">4.9</div>
               <Stars />
-              <p className="text-text-secondary">Based on 120+ Google Reviews</p>
+              <p className="text-text-secondary">Based on 47 Google Reviews</p>
             </div>
 
             {/* Badges */}

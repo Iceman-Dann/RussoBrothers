@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import ContactClient from "./ContactClient";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Apex Plumbing Co. | Get a Free Quote",
+  title: "Contact Us | Russo Brothers Inc | Get a Free Quote",
   description:
-    "Contact Apex Plumbing Co. in Austin, TX. Get a free quote, book a service, or call for 24/7 emergency plumbing. Most requests get a response within the hour.",
+    "Contact Russo Brothers Inc in Wilmington, DE. Get a free quote, book a service, or call for prompt plumbing service. (302) 762-3307",
   openGraph: {
-    title: "Contact Apex Plumbing Co. | Free Quote",
-    description: "Get in touch for a free plumbing quote. Call, email, or fill out our form. 24/7 emergency service available.",
+    title: "Contact Russo Brothers Inc | Free Quote",
+    description: "Get in touch for a free plumbing quote. Call, email, or fill out our form.",
   },
 };
 

@@ -51,7 +51,7 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2.5 group" aria-label="Apex Plumbing home">
+          <Link href="/" className="flex items-center gap-2.5 group" aria-label="Russo Brothers home">
             <div className="w-10 h-10 rounded-lg bg-accent flex items-center justify-center shadow-lg shadow-accent/20 group-hover:shadow-accent/40 transition-shadow duration-300">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M6 12L6 4C6 2.89543 6.89543 2 8 2H10C11.1046 2 12 2.89543 12 4V12" />
@@ -61,7 +61,7 @@ export default function Navbar() {
               </svg>
             </div>
             <span className="text-lg font-extrabold tracking-tighter text-text-primary">
-              APEX <span className="text-accent">PLUMBING</span>
+              RUSSO <span className="text-accent">BROTHERS</span>
             </span>
           </Link>
 
@@ -90,16 +90,16 @@ export default function Navbar() {
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-4">
             <a
-              href="tel:+15125550182"
+              href="tel:+13027623307"
               className="flex items-center gap-2 text-sm text-text-secondary hover:text-text-primary transition-colors"
             >
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
               </svg>
-              (512) 555-0182
+              (302) 762-3307
             </a>
             <a
-              href="tel:+15125550182"
+              href="tel:+13027623307"
               className="px-5 py-2.5 bg-accent text-white text-sm font-bold rounded-full hover:bg-accent/90 transition-all duration-200 accent-glow hover:accent-glow-strong"
             >
               CALL NOW
@@ -164,10 +164,10 @@ export default function Navbar() {
                 transition={{ delay: 0.5 }}
               >
                 <a
-                  href="tel:+15125550182"
+                  href="tel:+13027623307"
                   className="mt-4 inline-flex items-center gap-3 px-10 py-5 bg-accent text-white text-xl font-bold rounded-2xl accent-glow"
                 >
-                  <PhoneIcon size={20} className="inline-block" /> Call (512) 555-0182
+                  <PhoneIcon size={20} className="inline-block" /> Call (302) 762-3307
                 </a>
               </motion.div>
             </div>

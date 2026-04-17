@@ -11,16 +11,16 @@ const services = [
     id: "emergency",
     icon: "🔧",
     name: "Emergency Repairs",
-    tagline: "When every minute counts, we show up.",
+    tagline: "When you need help, we're there.",
     description:
-      "Burst pipes, major leaks, overflowing toilets, and sewer backups don't wait for business hours — and neither do we. Our emergency plumbing team is available 24 hours a day, 7 days a week, 365 days a year. We arrive fast, diagnose the issue quickly, and get your home back to normal with minimal disruption.",
+      "Burst pipes, major leaks, overflowing toilets, and sewer backups need prompt attention. Russo Brothers provides responsive emergency plumbing service to address your most urgent issues. We arrive quickly, diagnose the problem, and get your home back to normal with minimal disruption.",
     includes: [
-      "24/7 emergency response with priority dispatch",
       "Burst pipe repair and water damage prevention",
       "Sewer backup and overflow remediation",
-      "Frozen pipe thawing and insulation",
       "Emergency water shut-off assistance",
-      "Temporary and permanent flood solutions",
+      "Leak detection and repair",
+      "Quick response service",
+      "Professional emergency troubleshooting",
     ],
   },
   {
@@ -108,7 +108,7 @@ const services = [
 const faqs = [
   {
     q: "How quickly can you respond to an emergency?",
-    a: "Our average emergency response time is 23 minutes. We have technicians on call 24/7 throughout Austin and surrounding areas, so help is always nearby.",
+    a: "Russo Brothers prioritizes rapid response to emergency calls. We aim to help you as quickly as possible with our responsive service team.",
   },
   {
     q: "Do you offer free estimates?",
@@ -116,19 +116,19 @@ const faqs = [
   },
   {
     q: "Are you licensed and insured?",
-    a: "Absolutely. Apex Plumbing Co. holds a Master Plumber license (TX #M-41892) and carries comprehensive general liability and workers' compensation insurance for your protection.",
+    a: "Absolutely. Russo Brothers Inc is fully licensed and insured for your protection. We maintain all necessary credentials for plumbing work in Delaware.",
   },
   {
     q: "What areas do you serve?",
-    a: "We serve Austin and the greater Travis County area, including Round Rock, Cedar Park, Georgetown, Pflugerville, Leander, Lakeway, Bee Cave, and more.",
+    a: "We serve Wilmington, DE and the surrounding areas. We're located at 912 Brandywine Blvd, Wilmington, DE 19809.",
   },
   {
     q: "Do you guarantee your work?",
-    a: "Every job comes with our satisfaction guarantee. If something isn't right, we'll come back and fix it at no additional cost. We also offer warranties on parts and labor.",
+    a: "Every job comes with our satisfaction guarantee. If something isn't right, we'll come back and fix it at no additional cost. We stand behind our work.",
   },
   {
     q: "What payment methods do you accept?",
-    a: "We accept cash, all major credit cards, checks, and offer financing options for larger jobs. We also provide senior and military discounts.",
+    a: "We accept cash, all major credit cards, and checks. Call us to discuss payment options and availability.",
   },
 ];
 
@@ -290,10 +290,10 @@ export default function ServicesClient() {
           </ScrollReveal>
           <ScrollReveal delay={0.1}>
             <a
-              href="tel:+15125550182"
+              href="tel:+13027623307"
               className="mt-8 inline-flex items-center gap-3 px-10 py-5 bg-white text-primary font-black text-xl rounded-2xl hover:scale-105 transition-transform shadow-2xl"
             >
-              📞 (512) 555-0182
+              📞 (302) 762-3307
             </a>
           </ScrollReveal>
         </div>
