@@ -14,16 +14,16 @@ const timeline = [
 ];
 
 const values = [
-  { icon: "💎", name: "Honesty", desc: "We give you the truth about what's wrong and what it costs. No upselling, no pressure." },
+  { icon: "💎", name: "Honesty", desc: "We give you the truth about what&apos;s wrong and what it costs. No upselling, no pressure." },
   { icon: "🏆", name: "Quality", desc: "Every job done right. We test our finished work and do a thorough job of cleanup." },
-  { icon: "⏰", name: "Reliability", desc: "When we say we'll be there, we'll be there. Quick response, prompt service." },
+  { icon: "⏰", name: "Reliability", desc: "When we say we&apos;ll be there, we&apos;ll be there. Quick response, prompt service." },
   { icon: "🤝", name: "Community", desc: "Wilmington is our home. We treat every customer like neighbors, not transactions." },
 ];
 
 const team = [
-  { name: "Joe Russo", role: "Founder & Master Plumber", bio: "Leading Russo Brothers with integrity and expert craftsmanship for over 30 years." },
-  { name: "Jimmy", role: "Lead Technician", bio: "Skilled technician known for thoroughness and professional installation work." },
-  { name: "Wilson", role: "Service Technician", bio: "Responsive and reliable, ensuring every job is completed with attention to detail." },
+  { name: "Joe Russo", role: "Founder & Master Plumber", bio: "Leading Russo Brothers with integrity and expert craftsmanship for over 30 year&apos;s." },
+{ name: "Jimmy", role: "Lead Technician", bio: "Skilled technician known for thoroughness &amp; professional installation work." },
+{ name: "Wilson", role: "Service Technician", bio: "Responsive and reliable, ensuring every job is completed with attention to detail." }
 ];
 
 const certifications = [

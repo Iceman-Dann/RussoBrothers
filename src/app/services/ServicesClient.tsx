@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/Animations";
+import { ScrollReveal } from "@/components/Animations";
 import SectionHeading from "@/components/SectionHeading";
 
 const services = [

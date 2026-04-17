@@ -1,10 +1,10 @@
 "use client";
 
-import { useRef, useEffect, useState } from "react";
+import { useRef, useState } from "react";
+import { ScrollReveal, CountUp, StaggerContainer, StaggerItem } from "@/components/Animations";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 import SectionHeading from "@/components/SectionHeading";
-import { ScrollReveal, CountUp, StaggerContainer, StaggerItem } from "@/components/Animations";
 import { BoltIcon, ShieldCheckIcon, StarIcon, ClockIcon, MapPinIcon, DollarIcon, CheckCircleIcon, WrenchIcon, ShowerIcon, FlameIcon, HardHatIcon, BathtubIcon, GasIcon, PhoneIcon, SparkleIcon, CheckIcon } from "@/components/Icons";
 
 /* ─── HERO ─── */
@@ -201,11 +201,11 @@ function Hero() {
 /* ─── TRUST BAR ─── */
 function TrustBar() {
   const items = [
-    { icon: <ShieldCheckIcon size={20} className="text-accent" />, text: "Licensed & Insured" },
-    { icon: <StarIcon size={20} className="text-accent" />, text: "4.9 Star Rated" },
-    { icon: <ClockIcon size={20} className="text-accent" />, text: "Quick Response" },
-    { icon: <MapPinIcon size={20} className="text-accent" />, text: "Serving Wilmington, DE" },
-    { icon: <DollarIcon size={20} className="text-accent" />, text: "Reasonable Pricing" },
+{ icon: <ShieldCheckIcon size={20} className="text-accent" />, text: "Licensed & Insured", hasCount: false },
+{ icon: <StarIcon size={20} className="text-accent" />, text: "4.9 Star Rated", hasCount: false },
+{ icon: <ClockIcon size={20} className="text-accent" />, text: "Quick Response", hasCount: false },
+{ icon: <MapPinIcon size={20} className="text-accent" />, text: "Serving Wilmington, DE", hasCount: false },
+{ icon: <DollarIcon size={20} className="text-accent" />, text: "Reasonable Pricing", hasCount: false },
     { icon: <CheckCircleIcon size={20} className="text-accent" />, text: "Family Owned", hasCount: false },
   ];
 
